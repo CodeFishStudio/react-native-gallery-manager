@@ -120,8 +120,6 @@ public class RNGalleryManagerModule extends ReactContextBaseJavaModule {
             } else {
                 gallery = GalleryCursorManager.getAlbumCursor(reactContext);
             }
-
-            gallery = GalleryCursorManager.getQAlbumCursor(reactContext);
             WritableArray albums = new WritableNativeArray();
 
             gallery.moveToFirst();
