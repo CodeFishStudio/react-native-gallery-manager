@@ -18,6 +18,9 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.bridge.WritableNativeMap;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RNGalleryManagerModule extends ReactContextBaseJavaModule {
 
     public static final String RNGALLERY_MANAGER = "RNGalleryManager";
