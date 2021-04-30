@@ -128,7 +128,7 @@ public class RNGalleryManagerModule extends ReactContextBaseJavaModule {
 
             do {
                 WritableMap album = getAlbum(gallery);
-                if (total > 0 && album.getString("title").equals(albumList.get(total-1))) {
+                if (total > 0 && albumList.contains(album.getString("title"))) {
                 } else {
                 albumList.add(album.getString("title"));
                     albums.pushMap(album);
